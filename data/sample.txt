@@ -1,0 +1,14 @@
+LangChain Prompts:
+LangChain provides PromptTemplate and ChatPromptTemplate for building reusable prompts. Prompts help structure the interaction between users and LLMs.
+
+LangChain Chains:
+Chains allow combining multiple components such as prompts, models, and output parsers into pipelines. LCEL is the modern way to build chains.
+
+LangChain Agents:
+Agents allow models to decide which tools to call dynamically. Agents are useful when tasks require reasoning and tool usage.
+
+RAG (Retrieval-Augmented Generation):
+RAG improves LLM accuracy by retrieving relevant context from external documents before generating answers.
+
+Vector Databases:
+Vector databases store embeddings and allow similarity search for retrieval. Examples include FAISS, ChromaDB, Pinecone, and Weaviate.
