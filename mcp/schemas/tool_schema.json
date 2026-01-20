@@ -1,0 +1,12 @@
+{
+  "name": "add_numbers",
+  "description": "Add two integers together",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "a": { "type": "integer" },
+      "b": { "type": "integer" }
+    },
+    "required": ["a", "b"]
+  }
+}
